@@ -1,0 +1,83 @@
+.CountryCard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: antiquewhite;
+    display: flex;
+    height: 450px;
+    width: 320px;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-bottom: 28px;
+    align-items: center;
+    opacity: 0.9;
+    position: relative; 
+    justify-content: space-between;
+    flex-direction: column;
+    perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+}
+.CountryCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(238, 238, 238, 0.2);
+    transform: rotateY(10deg);
+    opacity: 1;
+}
+
+.namecountry{
+    text-decoration: none;
+    font-family: ᴛʏᴘᴇ ꜱᴏᴍᴇᴛʜɪɴɢ ᴛᴏ ꜱᴛᴀʀᴛ;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color:black;
+    height: 45px;
+    width: 90%;
+}
+.titlecontinent{
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+
+.detailbutton{
+    font-weight:bold;
+    font-family: ᴛʏᴘᴇ ꜱᴏᴍᴇᴛʜɪɴɢ ᴛᴏ ꜱᴛᴀʀᴛ;
+    text-transform: uppercase;
+    padding: 8px;
+    color: white;
+    background-color: rgb(31, 28, 28);
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+    bottom: 0;
+}
+.detailbutton:hover{
+    background-color: rgb(59, 238, 46);
+    color: black;
+}
+
+.numbers{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 15px;
+}
+
+.Link{
+    background-color: rgb(31, 28, 28);
+    width: 100%;
+}
+
+.img{
+    justify-content: flex-start;
+    border-radius: 5%;
+    margin-top: 5px;
+    max-width: 220px; 
+    height: 145px;
+    
+}

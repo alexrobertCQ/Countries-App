@@ -1,0 +1,17 @@
+.home{
+    
+}
+
+.allCards{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.filtersandpag{
+    /* background-color: rgb(32, 31, 31); */
+    margin-top: 52px;
+    padding-right: 2em;
+    padding-bottom: 0.7em;
+    justify-content: center
+}

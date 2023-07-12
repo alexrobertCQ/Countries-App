@@ -1,0 +1,26 @@
+.inputsearch input[type=text] {
+    float: right;
+    padding: 6px;
+    border-width: 1px;
+    margin-top: 8px;
+    margin-right: 1px;
+    font-size: 17px;
+
+  }
+
+.inputsearch button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    background: #ddd;
+    font-size: 17px;
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+  }
+  
+  .inputsearch button:hover {
+    background: gray;
+    color: white;
+    transition: 0.8s; 
+  }
