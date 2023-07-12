@@ -7,6 +7,8 @@ import Activities from './components/Activities/Activities'
 import CountryDetail from "./components/CountryDetail/CountryDetail";
 import CreateTour from "./components/CreateTour/CreateTour";
 import LandingPage from "./components/LandingPage/LandingPage";
+import axios from 'axios';
+axios.defaults.baseURL = 'http://localhost:3001/'
 
 function App() {
   return (
