@@ -8,7 +8,7 @@ import CountryDetail from "./components/CountryDetail/CountryDetail";
 import CreateTour from "./components/CreateTour/CreateTour";
 import LandingPage from "./components/LandingPage/LandingPage";
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:3001/'
+axios.defaults.baseURL = 'https://bd-countries-f-sqia-dev.fl0.io/'
 
 function App() {
   return (
